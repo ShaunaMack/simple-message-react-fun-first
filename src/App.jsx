@@ -1,5 +1,6 @@
 function App() {
-  return <h1>React, here we go!</h1>;
+  const message = "React, here we go!";
+  return <h1>{message}</h1>;
 }
 
 export default App;
